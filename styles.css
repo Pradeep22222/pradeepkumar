@@ -1,0 +1,140 @@
+.top {
+  background-color: #df5e5e;
+}
+
+.navbar-brand {
+  font-family: "MonteCarlo", cursive;
+
+  font-weight: bold;
+  size: 5rem;
+  letter-spacing: 0.3rem;
+}
+.top-items {
+  font-size: 1.5rem;
+}
+.nav-elements:hover {
+  border-radius: 10%;
+  background-color: rgba(250, 37, 65, 0.377);
+  transform: scale(0.9);
+  transform-style: flat;
+  transform-origin: center;
+}
+.home-bio {
+  margin: 2%;
+  margin-top: 15%;
+  color: white;
+}
+.title-para {
+  font-weight: bold;
+  font-size: 20px;
+}
+.button-hire {
+  font-size: 25px;
+  font-weight: bold;
+}
+.button-hire:hover {
+  font-size: 27px;
+}
+.button-hide {
+  display: none;
+}
+.box {
+  width: auto;
+  height: auto;
+  border: 2px solid rgba(250, 88, 209, 0.247);
+  border-radius: 10%;
+}
+.server {
+  margin-left: 3%;
+  font-size: 8rem;
+}
+.mouse {
+  font-size: 3rem;
+}
+.freelancing {
+  text-align: center;
+  color: white;
+  margin-top: 500px;
+}
+.freelancing > h4,
+h3 {
+  font-family: "Indie Flower", cursive, serif;
+}
+.contacts {
+  background-color: rgb(80, 79, 78);
+  margin: 0;
+  text-align: center;
+  padding: 1%;
+}
+.media {
+  display: inline-block;
+  margin: 1%;
+  color: white;
+}
+.copy-right {
+  color: white;
+}
+
+/*                About page                   */
+.about-home {
+  margin: 3%;
+}
+.about-float {
+  float: left;
+}
+.image-me {
+  width: 40%;
+  height: auto;
+  object-fit: content;
+}
+.about-para {
+  color: white;
+  font-size: larger;
+  margin-left: 42%;
+  padding: 10% 2% 0 1%;
+  line-height: 2rem;
+}
+/*                        Education              Page                  */
+.education {
+  color: white;
+  margin: 15%;
+}
+.bachelor {
+  float: right;
+  padding: 10%;
+}
+/*                     Skills                page                    */
+.skills {
+  margin: 3%;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .nav-elements {
+    text-align: left;
+    font-size: 20px;
+    margin-left: auto;
+  }
+  .developer-icons {
+    margin-left: 50%;
+  }
+  .contacts {
+    padding: 2%;
+  }
+}
+@media (max-width: 550px) {
+  .developer-icons {
+    margin-right: 10%;
+  }
+}
+@media (max-width: 766px) {
+  .about-para {
+    clear: both;
+    line-height: 2rem;
+    margin-left: 1%;
+    padding: 0;
+  }
+  .image-me {
+    width: 90%;
+  }
+}
